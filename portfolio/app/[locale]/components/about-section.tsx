@@ -9,7 +9,7 @@ export default function AboutSection() {
   return (
     <section
       id="about"
-      className="min-h-screen flex flex-col justify-center pt-20 pb-16"
+      className="min-h-screen flex flex-col justify-center pt-20 pb-16 "
     >
       <div className="container mx-auto px-6">
         <div className="max-w-3xl">

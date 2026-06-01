@@ -13,7 +13,28 @@
     "skills": "Skills",
     "projects": "Projects",
     "experience": "Experience",
-    "contact": "Contact"
-    ,"getInTouch": "Get in Touch"
+    "contact": "Contact",
+    "getInTouch": "Get in Touch"
+  },
+  "MoreInfoData": {
+    "sectionLabel": "About",
+    "heading": "A bit about me",
+    "paragraph1": "I'm a junior developer passionate about crafting accessible, intuitive user interfaces that blend thoughtful design with robust engineering. My favorite work lies at the intersection of design and development.",
+    "paragraph2": "My journey into tech, yet young, is fueled by a desire to learn, innovate, and contribute to projects that make a difference.",
+    "paragraph3": "In the past, I've had the opportunity to develop software across various settings, ranging from integrating into a working consumer product to building projects from scratch.",
+    "focusHeading": "What I focus on",
+    "focusItems": {
+      "UI": "Responsive & accessible interfaces",
+      "Optimization": "Performance optimization",
+      "Technologies": "Modern web technologies",
+      "CleanCode": "Clean, maintainable code",
+      "Backend": "Scalable backend architecture",
+      "API": "API design & integration",
+      "Database": "Database optimization"
+    }
+  },
+  "Skills": {
+    "technologies": "Technologies",
+    "tools": "Tools & frameworks I work with"
   }
 }

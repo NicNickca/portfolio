@@ -15,5 +15,26 @@
     "experience": "Experiencia",
     "contact": "Contacto",
     "getInTouch": "Ponte en contacto"
+  },
+  "MoreInfoData": {
+    "sectionLabel": "Acerca de",
+    "heading": "Un poco sobre mí",
+    "paragraph1": "Soy un desarrollador junior apasionado por crear interfaces de usuario accesibles e intuitivas que combinan un diseño moderno con tecnologías . Mi trabajo favorito se encuentra en la intersección entre diseño y desarrollo.",
+    "paragraph2": "Mi camino en el mundo tech, aunque aún es joven, está impulsado por el deseo de aprender, innovar y contribuir en proyectos que marcan la diferencia.",
+    "paragraph3": "En el pasado, he tenido la oportunidad de desarrollar software en distintos contextos, desde integrarme en un producto de consumo en funcionamiento hasta construir proyectos desde cero.",
+    "focusHeading": "En qué me enfoco",
+    "focusItems": {
+      "UI": "Interfaces responsivas y accesibles",
+      "Optimization": "Optimización de rendimiento",
+      "Technologies": "Tecnologías web modernas",
+      "CleanCode": "Código limpio y fácil de mantener",
+      "Backend": "Arquitectura backend escalable",
+      "API": "Diseño e integración de APIs",
+      "Database": "Optimización de bases de datos"
+    }
+  },
+  "Skills": {
+    "technologies": "Tecnologías",
+    "tools": "Herramientas y frameworks con los que trabajo"
   }
 }

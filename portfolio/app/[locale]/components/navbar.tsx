@@ -24,7 +24,7 @@ export function Navbar() {
   const t = useTranslations("Navbar");
 
   const navLinks = [
-    { name: t("about"), href: "#about" },
+    { name: t("about"), href: "#more-info" },
     { name: t("skills"), href: "#skills" },
     { name: t("projects"), href: "#projects" },
     { name: t("experience"), href: "#experience" },
@@ -41,8 +41,8 @@ export function Navbar() {
       )}
     >
       <nav className="container mx-auto px-6 py-4 flex items-center justify-between">
-        <Link href="#hero">
-          <Card className="text-xl font-bold text-foreground hover:text-primary transition-colors px-2 py-1">
+        <Link href="#about">
+          <Card className="text-xl font-bold text-foreground hover:text-primary transition-colors px-2 py-1 rounded-sm">
             NMS
           </Card>
         </Link>
