@@ -1,0 +1,19 @@
+{
+  "AboutSection": {
+    "greeting": "Hola, soy",
+    "heading": "Nicolai Marlon Schirmer",
+    "role": "Desarrollador Web Full Stack",
+    "description": "Desarrollador Full Stack creativo, especializado en diseñar y desarrollar experiencias web intuitivas, fluidas y centradas en el usuario. Gracias a una sólida formación en desarrollo de aplicaciones y experiencia práctica con tecnologías modernas, aporto soluciones de calidad, colaboro eficazmente en equipos multidisciplinares y asumo nuevos desafíos con entusiasmo y una mentalidad de aprendizaje continuo.",
+    "viewWork": "Ver mis proyectos",
+    "contact": "Contáctame",
+    "cardText": "Hola, soy Nicolai Marlon Schirmer"
+  },
+  "Navbar": {
+    "about": "Acerca de",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "experience": "Experiencia",
+    "contact": "Contacto",
+    "getInTouch": "Ponte en contacto"
+  }
+}
