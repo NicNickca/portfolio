@@ -35,11 +35,16 @@ export default async function RootLayout({ children, params }: Props) {
     notFound();
   }
   return (
-    <html lang={locale} className={`${inter.variable} h-full `}>
+    <html
+      suppressHydrationWarning
+      lang={locale}
+      className={`${inter.variable} h-full`}
+    >
       <body className="min-h-full flex flex-col">
         <NextIntlClientProvider locale={locale}>
           <ThemeProvider
             attribute="class"
+            defaultTheme="system"
             enableSystem
             enableColorScheme={false}
             disableTransitionOnChange
