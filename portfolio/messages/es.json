@@ -36,5 +36,16 @@
   "Skills": {
     "technologies": "Tecnologías",
     "tools": "Herramientas y frameworks con los que trabajo"
+  },
+  "Projects": {
+    "projects": "Proyectos",
+    "seleccionados": "Proyectos seleccionados",
+    "description": "Aquí hay unos proyectos en los que he trabajado.",
+    "pokecompanion": {
+      "title": "PokéCompanion",
+      "description": "Un proyecto con integración de IA de fin de grado basado en crear una Pokédex y Creador de equipos en una aplicación web.",
+      "liveUrl": "https://www.pokecompanion.xyz/",
+      "githubUrl": "https://github.com/NicNickca/proyectofinal"
+    }
   }
 }

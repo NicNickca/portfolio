@@ -60,11 +60,11 @@ export function Navbar() {
             </li>
           ))}
 
-          <li>
+          {/* <li>
             <Link href="#contact">
               <Card className="px-2 py-1 rounded-md ">{t("getInTouch")}</Card>
             </Link>
-          </li>
+          </li> */}
           <li>
             <ModeToggle />
           </li>
