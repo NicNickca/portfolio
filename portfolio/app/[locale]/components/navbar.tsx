@@ -5,9 +5,16 @@ import { cn } from "@/lib/utils";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ModeToggle } from "@/components/ui/theme-toggle";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import Link from "next/link";
 import { Card } from "@/components/ui/card";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import LanguageSelector from "./language-selector";
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -22,6 +29,12 @@ export function Navbar() {
   }, []);
 
   const t = useTranslations("Navbar");
+  const locale = useLocale();
+
+  const languages = [
+    { code: "en", name: "English" },
+    { code: "es", name: "Español" },
+  ];
 
   const navLinks = [
     { name: t("about"), href: "#more-info" },
@@ -60,11 +73,11 @@ export function Navbar() {
             </li>
           ))}
 
-          {/* <li>
-            <Link href="#contact">
-              <Card className="px-2 py-1 rounded-md ">{t("getInTouch")}</Card>
-            </Link>
-          </li> */}
+          <LanguageSelector
+            locale={locale}
+            languages={languages}
+            setIsMobileMenuOpen={setIsMobileMenuOpen}
+          />
           <li>
             <ModeToggle />
           </li>
@@ -99,12 +112,12 @@ export function Navbar() {
                 </Link>
               </li>
             ))}
-            <li>
-              <Link href="#contact">
-                <Card className="px-2 py-1 rounded-md ">{t("getInTouch")}</Card>
-              </Link>
-            </li>
-            <li className="flex justify-center pt-2">
+            <li className="flex flex-row justify-end gap-4 pt-2 border-t border-border mt-2">
+              <LanguageSelector
+                locale={locale}
+                languages={languages}
+                setIsMobileMenuOpen={setIsMobileMenuOpen}
+              />
               <ModeToggle />
             </li>
           </ul>
