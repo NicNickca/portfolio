@@ -27,6 +27,7 @@ function ProjectCard({
           src={image}
           alt={title}
           fill
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           className="object-cover transition-transform duration-500 group-hover:scale-105"
         />
         <div className="absolute inset-0 bg-background/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
@@ -79,13 +80,24 @@ export function ProjectsSection() {
   ];
 
   return (
-    <section id="projects" className="py-24 bg-secondary/30">
-      <div className="container mx-auto px-6">
-        <div className="max-w-4xl mx-auto text-center mb-16">
+    <section id="projects" className="py-16 ">
+      <div className="flex flex-col items-center justify-center w-full">
+        {/* <div className="max-w-4xl mx-auto text-center mb-16">
           <span className="text-primary text-sm font-medium uppercase tracking-wider">
             {t("projects")}
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-2 mb-4">
+            {t("seleccionados")}
+          </h2>
+          <p className="text-muted-foreground max-w-2xl mx-auto">
+            {t("description")}
+          </p>
+        </div> */}
+        <div className="mb-10 max-w-3xl text-center">
+          <span className="text-primary text-sm font-medium uppercase tracking-wider">
+            {t("projects")}
+          </span>
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground">
             {t("seleccionados")}
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">

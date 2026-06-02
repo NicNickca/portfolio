@@ -79,7 +79,7 @@ export function ContactSection() {
     <section id="contact" className="py-24 bg-secondary/30">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-16">
+          {/* <div className="text-center mb-16">
             <span className="text-primary text-sm font-medium uppercase tracking-wider">
               {t("sectionLabel")}
             </span>
@@ -87,6 +87,17 @@ export function ContactSection() {
               {t("heading")}
             </h2>
             <p className="text-muted-foreground max-w-xl mx-auto">
+              {t("description")}
+            </p>
+          </div> */}
+          <div className="mb-10 max-w-3xl text-center">
+            <span className="text-primary text-sm font-medium uppercase tracking-wider">
+              {t("sectionLabel")}
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground">
+              {t("heading")}
+            </h2>
+            <p className="text-muted-foreground max-w-2xl mx-auto">
               {t("description")}
             </p>
           </div>

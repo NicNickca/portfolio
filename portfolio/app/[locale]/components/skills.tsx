@@ -44,7 +44,7 @@ export default function Skills() {
   const t = useTranslations("Skills");
 
   return (
-    <section id="skills" className="py-16 bg-primary-foreground ">
+    <section id="skills" className="py-16 ">
       <div className="flex flex-col items-center justify-center w-full">
         <div className="mb-10 max-w-3xl text-center">
           <span className="text-primary text-sm font-medium uppercase tracking-wider">

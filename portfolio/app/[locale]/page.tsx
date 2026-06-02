@@ -1,6 +1,7 @@
 import AboutSection from "./components/about-section";
 import { ContactSection } from "./components/contact-section";
 import { ExperienceSection } from "./components/experience-section";
+import { Footer } from "./components/footer";
 import MoreInfo from "./components/more-info";
 import { Navbar } from "./components/navbar";
 import { ProjectsSection } from "./components/project-section";
@@ -18,6 +19,7 @@ export default function Home() {
         <ExperienceSection />
         <ContactSection />
       </main>
+      <Footer />
     </>
   );
 }
