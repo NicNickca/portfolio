@@ -68,5 +68,33 @@
         "PostgreSQL"
       ]
     }
+  },
+  "Contact": {
+    "sectionLabel": "Contacto",
+    "heading": "Ponte en contacto",
+    "description": "Si quieres discutir un proyecto o simplemente saludar, siempre estoy disponible para charlar. No dudes en contactarme.",
+    "email": "Correo electrónico",
+    "emailAddress": "nicolaischirmer22@gmail.com",
+    "location": "Ubicación",
+    "locationText": "Illes Balears, España",
+    "followMe": "Sígueme",
+    "githubAriaLabel": "GitHub",
+    "linkedinAriaLabel": "LinkedIn",
+    "nameLabel": "Nombre",
+    "namePlaceholder": "Tu nombre",
+    "emailLabel": "Correo electrónico",
+    "emailPlaceholder": "tu@correo.com",
+    "messageLabel": "Mensaje",
+    "messagePlaceholder": "Tu mensaje...",
+    "sendButton": "Enviar mensaje",
+    "sendingButton": "Enviando...",
+    "validationErrors": {
+      "invalidName": "El nombre debe tener al menos 2 letras",
+      "invalidEmail": "Por favor, introduce una dirección de correo válida",
+      "invalidMessage": "El mensaje debe tener al menos 10 caracteres",
+      "sendError": "Error al enviar el correo",
+      "generalError": "Ocurrió un error"
+    },
+    "successMessage": "¡Mensaje enviado con éxito!"
   }
 }

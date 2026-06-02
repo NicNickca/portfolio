@@ -5,6 +5,7 @@ import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { ThemeProvider } from "@/components/theme-provider";
+import { Toaster } from "sonner";
 
 type Props = {
   children: React.ReactNode;
@@ -50,6 +51,7 @@ export default async function RootLayout({ children, params }: Props) {
             disableTransitionOnChange
           >
             {children}
+            <Toaster />
           </ThemeProvider>
         </NextIntlClientProvider>
       </body>
