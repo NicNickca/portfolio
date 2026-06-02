@@ -47,5 +47,26 @@
       "liveUrl": "https://www.pokecompanion.xyz/",
       "githubUrl": "https://github.com/NicNickca/proyectofinal"
     }
+  },
+  "Experience": {
+    "sectionLabel": "Experience",
+    "heading": "Where I have Worked",
+    "viewResume": "View Full Resume",
+    "fibwi": {
+      "period": "2025 — 2026",
+      "title": "Fullstack Engineer",
+      "company": "Fibwi",
+      "companyUrl": "https://fibwi.com",
+      "description": "At Fibwi, I was responsible for developing and maintaining both the frontend and backend of our web applications. I collaborated closely with designers and other backend developers to create seamless and responsive user experiences. My work involved implementing new features, optimizing performance, and ensuring cross-browser compatibility, while also contributing to the overall architecture and design of our systems.",
+      "skills": [
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Tailwind CSS",
+        "NodeJS",
+        "Kotlin",
+        "PostgreSQL"
+      ]
+    }
   }
 }
